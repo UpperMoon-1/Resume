@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="{% static 'resume/exp-helper.css' %}">
+	</head>
+	<body>
+		<h1>Experience</h1>
+		<main>
+			<a href="{% url 'skills' %}">skill page</a>
+			<a href="{% url 'index' %}">home page</a>
+			<a href="{% url 'education' %}">education page</a>	
+		</main>
+	</body>
+</html>

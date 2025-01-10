@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Giuseppe's Skills
+	</title>
+	<link rel="stylesheet" href="{% static 'resume/skl-helper.css' %}">
+</head>
+	<body>
+		<header>
+			<h1>hello</h1>
+		</header>
+		<main>
+			<a href="{% url 'index' %}">home page</a>
+			<a href="{% url 'experience' %}">experience page</a>
+			<a href="{% url 'education' %}">education page</a>	
+		</main>
+	</body>
+</html>

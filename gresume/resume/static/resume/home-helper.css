@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+.page{
+	background-color: #7393B3;
+}
+.split {
+	width:32%;
+	position: fixed;
+	/*z-index: 1;*/
+	top: 0;
+	overflow-x: hidden; 
+	/*padding-top: 20px;*/
+	transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.split:hover, .split2:hover, .split3:hover {
+			transform: scale(1.03);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			filter: brightness(90%);
+		}
+
+.name {
+	height:20%;
+	left: 0; 
+	background-color: #B0C7D6;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.exp {
+	height: 45%;
+	right: 0;
+	background-color: #9DB7C9;
+	margin-top: 10px; 
+	margin-right: 5px;
+	
+}
+
+.exp-text {
+	padding-left: 20px;
+}
+
+.ox-t{
+	padding-left: 20px;
+}
+
+.ox-tabs{
+	padding-left: 25px;
+}
+
+.ox-st{
+	padding-left: 30px;
+}
+
+
+
+
+
+
+.info {
+	height: 35%;
+	left: 34%;
+	right: 34%;
+	background-color: #8AA7BC;
+	margin-top: 10px;
+}
+
+
+.centered {
+	position: absolute; 
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+
+.split2 {
+	
+	width: 32%;
+	position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-top: 20px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.pic {
+	top: 30%;
+	height: 34%;
+	background-color: #A3B9C9 ;
+	left: 0;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 60%;
+}
+
+.skill{
+	bottom: 10px;
+	height: 50%;
+	background-color: #91A9BA;
+	left: 34%;
+	width: 32%;
+	margin-bottom: 5px;
+}
+
+.skl-text {
+	padding-left: 10px;
+}
+
+.skl-hd {
+	padding-left: 13px;
+}
+
+.skl-sm {
+	padding-left: 15px;
+}
+
+
+
+
+
+
+.split3 {
+	height: 40%;
+	width: 32%;
+	position: fixed;
+	bottom: 5%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-top: 20px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.edu {
+	background-color: #AFCBD2;
+	right: 0;
+	margin-right: 5px;
+}
+
+.edu-text {
+	padding-left: 5px;
+}
+
+.wlu-text {
+	padding-left: 8px;
+}
+
+.wlu-con {
+	padding-left: 10px
+}
+
+
+
+
+
+
+.text-email {
+	padding-left: 15px;	
+}
+.text-mail {
+	padding-left: 20px;	
+}
+.text-linken {
+	padding-left: 25px;
+}
+
+
+
+
+
+
+.secondlevel-right {
+	background-color: #7F9AB0;
+	right: 0;
+	margin-right: 5px;
+}
+}
+
+.thirdlevel-left {
+	background-color: #A0B4C4;
+	left: 0;
+	margin-left: 5px;	
+}
+
+.thirdlevel-middle {
+	background-color: #8CA3B8;
+	left: 34%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

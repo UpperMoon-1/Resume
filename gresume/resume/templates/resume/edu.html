@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Insert title here
+	</title>
+	<link rel="stylesheet" href="{% static 'resume/edu-helper.css' %}">
+</head>
+	<body>
+		<h1>education</h1>
+	</body>
+	<main>
+		<a href="{% url 'skills' %}">skill page</a>
+		<a href="{% url 'experience' %}">experience page</a>
+		<a href="{% url 'index' %}">home page</a>	
+	</main>
+</html>
